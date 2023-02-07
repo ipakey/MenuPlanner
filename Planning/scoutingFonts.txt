@@ -1,0 +1,12 @@
+Offical Font is Futura (not available as a google font)
+
+
+Similar free fonts on Google are Jost & Red Hat & Red Hat Display
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,400;0,600;1,200;1,400;1,500&family=Red+Hat+Display:ital,wght@0,400;0,500;1,400;1,500&family=Red+Hat+Text&display=swap" rel="stylesheet">
+
+font-family: 'Jost', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Red Hat Text', sans-serif;

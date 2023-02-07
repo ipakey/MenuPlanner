@@ -1,0 +1,36 @@
+Task: Prepare a menu planning schema that gives the option to output: 
+    &  meal database
+        inc: ingredients, ratios, basic steps
+        inputs:
+        This instance:
+            additional meal plans
+
+        Stored data:
+             meal & ingredients data bank with portion & catering information    
+
+    &  meal in hand, 
+        inc: alergy informtion, cooking suggestions;
+        inputs:
+            time
+            meal
+
+    &  portion sizes & catering packs for distribution 
+        inc: oz, g, cups, KG & pks
+
+    &  the menu overview for the time period
+        inc: alergy informtion, shopping list splits
+        inputs:
+            This instance:
+            time period & meals required options
+            catering options e.g. vegan, vegitablearian, muslim, jewish, lactose, fusspot etc. 
+
+    &  the shopping list for the time period
+        inc: shopping list splits, pre order options, 
+        inputs: 
+            Stored data: 
+            meal & ingredients data bank with portion & catering pack information
+
+            This instance:
+            numbers to cater for with options e.g. vegan, vegitablearian, muslim, jewish, lactose, fusspot etc. 
+            
+

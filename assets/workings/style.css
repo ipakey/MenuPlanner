@@ -1,0 +1,205 @@
+/* ? Reset & Initiation   */
+
+:root{
+--clr-Purple:#7413dcff;
+--clr-White:#ffffffff;
+--clr-Black:#000000ff;
+
+--clr-1stbG:#f5f5f5ff;
+--clr-1stNecker:#6c0f1b;
+--clr-1stBadgeBlue: #289cdfff;
+--clr-1stBadgeGold: #ffb41fff;
+--clr-1stContrast: #73937eff;
+
+--clr-UniformScout:#004851ff;
+--clr-UniformBeaver: #0095c8ff;
+--clr-UniformCub:#23a950ff;
+--clr-UniformSquirrel:#e22e12ff;
+
+--clr-contrast: #ffb4e5ff;
+--clr-danger: #e22e12ff;
+--clr-success: #23a950ff;
+--clr-warning: #ffe627ff;
+--clr-newBlue:#256effff;
+
+--fnt-jost: 'Jost', sans-serif;
+--fnt-redHatDis: 'Red Hat Display', sans-serif;
+--fnt-redHatTxt: 'Red Hat Text', sans-serif;
+}
+
+*{
+    font-size: 36px;
+    font-weight: 300;
+    box-sizing: border-box;
+    color: var(--clr-1stNecker);
+    font-family: var(--fnt-jost);
+    background-color: var(--clr-1stbG);
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* ? Structure */
+
+/* ?  body>header+main+footer*/
+/* ? header>h1 + nav> */
+/* ? nav.nav-bar + .log-nav */
+/* ? nav.nav-bar>.nav>button.btn-new>a[#]{GoTo$}*4*/
+/* ? nav.nav-bar>.log-nav{Log InOut Form}*/
+         /* ? */
+          /* ? */
+
+
+
+/* ? Page Parts */
+header{
+    background-color: var(--clr-1stContrast);
+    font: var(--fnt-redHatDis);
+}
+
+body{
+    background-color: var(--clr-1stBadgeBlue);
+    color: var(--clr-1stBadgeGold);
+}
+
+button{
+    display: flex;
+}
+
+h1{
+    font-family: var(--fnt-redHatDis);
+    color: var(--clr-1stBadgeGold);
+    background-image: linear-gradient(-310deg, var(--clr-1stNecker), var(--clr-UniformBeaver),var(--clr-UniformScout), var(--clr-UniformCub) );
+   
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    height: calc(100vh -150px);
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+footer{
+    font-size: .6rem;
+    height: 150px;
+}
+
+p{
+    font-size: .6rem;
+    font-family: var(--fnt-redHatTxt);
+    font-weight: 200;
+    font-style: italic;
+}
+
+
+/* ? Classes */
+
+.nav-bar{
+    display: flex;
+   /* width: 100%; */
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+}
+
+.btn-nav{
+    margin: 0.1rem;
+}
+
+.btn-nav a{
+    position: relative;
+    display: inline-block;
+    border-radius: .3rem;
+    justify-content: flex-start;
+    border: solid, 2px, --clr-1stBadgeGold;
+    padding: .4rem 0.2rem  0.2rem .4rem;
+    margin: .2rem;
+    text-decoration: none;
+}
+
+.dropdown a{
+    position: relative;
+    display: none;
+    background-color: inherit;
+}
+
+.btn-nav:hover .dropdown .btn-drop{
+    display: block;
+    min-width: 160px;
+    font: inherit;
+    background-color: inherit;
+    text-decoration: none;
+    z-index: 1;
+}
+.dkGreen{
+    background-color: var(--clr-UniformScout);
+    color: var(--clr-White);
+}
+
+.green{
+    background-color: var(--clr-UniformCub);
+    color: var(--clr-White);
+}
+
+.blue-new{
+    background-color: var(--clr-newBlue);
+    color: var(--clr-White);
+}
+
+.blue-edit{
+    background-color: var(--clr-UniformBeaver);
+    color: var(--clr-White);
+}
+
+.burg{
+    background-color: var(--clr-1stNecker);
+    color: var(--clr-contrast);
+}
+
+.btn-nav:hover{
+    filter:drop-shadow(.4rem .4rem .8rem var(--clr-1stNecker));
+    cursor: pointer;
+}
+.btn-nav dropdown a{
+    background-color: inherit;
+    color: inherit;
+    text-decoration: none;
+    font-size:0.8rem;
+}
+
+.log-nav{
+    font-size: .6rem;
+    justify-content: flex-end;
+    font-size: .5rem;
+    
+}
+
+.page-text{
+    display: grid;
+    
+    grid-template-areas:
+       '.  processImg processImg'
+       '.  processImg processImg'
+       '.  processImg processImg'
+       '.  .          .'
+       '.  .          .'
+    ;
+    grid-gap: .1rem;
+    /* background-color: var(--clr-1stBadgeBlue); */
+    padding: 0.3rem 1rem 0.3rem;
+    margin: .2rem auto;
+}
+
+.process-image{
+    grid-area: processImg;
+    width: 90%;
+    margin: 0.5rem auto;
+    border: 5px ridge var(--clr-1stBadgeGold);
+}
+
+

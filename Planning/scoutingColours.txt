@@ -1,0 +1,202 @@
+Scouts: 
+
+--clr-1stbG:#f5f5f5ff;
+--clr-1stNecker:#6c0f1b;
+--clr-1stBadgeBlue: #289cdfff;
+--clr-1stBadgeGold: #ffb41fff;
+--clr-1stContrast: #73937eff;
+
+--clr-Purple:#7413dcff;
+--clr-White:#ffffffff;
+--clr-Black:#000000ff;
+--clr-UniformScout:#004851ff;
+--clr-UniformBeaver: #00a794ff;
+--clr-UniformCub:#23a950ff;
+--clr-UniformSquirrel:#e22e12ff;
+--clr-scoutsContrast: #00a794ff;
+
+--clr-danger: #e22e12ff;
+--clr-success: #23a950ff;
+--clr-warning: #ffe627ff;
+
+
+!Scouts Colour pallet 
+
+/* CSS HEX */
+--midnight-green-eagle-green: #004851ff;
+--french-violet: #7413dcff;
+--white: #ffffffff;
+--black: #000000ff;
+--persian-plum: #6c0f1b;
+
+/* CSS HSL */
+--midnight-green-eagle-green: hsla(187, 100%, 16%, 1);
+--french-violet: hsla(269, 84%, 47%, 1);
+--white: hsla(0, 0%, 100%, 1);
+--black: hsla(0, 0%, 0%, 1);
+--persian-plum: hsla(352, 76%, 24%, 1);
+
+/* SCSS HEX */
+$midnight-green-eagle-green: #004851ff;
+$french-violet: #7413dcff;
+$white: #ffffffff;
+$black: #000000ff;
+$persian-plum: #6c0f1bff;
+
+/* SCSS HSL */
+$midnight-green-eagle-green: hsla(187, 100%, 16%, 1);
+$french-violet: hsla(269, 84%, 47%, 1);
+$white: hsla(0, 0%, 100%, 1);
+$black: hsla(0, 0%, 0%, 1);
+$persian-plum: hsla(352, 76%, 24%, 1);
+
+/* SCSS RGB */
+$midnight-green-eagle-green: rgba(0, 72, 81, 1);
+$french-violet: rgba(116, 19, 220, 1);
+$white: rgba(255, 255, 255, 1);
+$black: rgba(0, 0, 0, 1);
+$persian-plum: rgba(108, 15, 27, 1);
+
+badgeBlue: FFB41F
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #004851ff, #7413dcff, #ffffffff, #000000ff, #6c0f1bff);
+$gradient-right: linear-gradient(90deg, #004851ff, #7413dcff, #ffffffff, #000000ff, #6c0f1bff);
+$gradient-bottom: linear-gradient(180deg, #004851ff, #7413dcff, #ffffffff, #000000ff, #6c0f1bff);
+$gradient-left: linear-gradient(270deg, #004851ff, #7413dcff, #ffffffff, #000000ff, #6c0f1bff);
+$gradient-top-right: linear-gradient(45deg, #004851ff, #7413dcff, #ffffffff, #000000ff, #6c0f1bff);
+$gradient-bottom-right: linear-gradient(135deg, #004851ff, #7413dcff, #ffffffff, #000000ff, #6c0f1bff);
+$gradient-top-left: linear-gradient(225deg, #004851ff, #7413dcff, #ffffffff, #000000ff, #6c0f1bff);
+$gradient-bottom-left: linear-gradient(315deg, #004851ff, #7413dcff, #ffffffff, #000000ff, #6c0f1bff);
+$gradient-radial: radial-gradient(#004851ff, #7413dcff, #ffffffff, #000000ff, #6c0f1bff);
+
+!offical movement design booklet
+
+Offical Movement Colour Scheme
+Scouts Purple
+RGB r116 g20 b220
+CMYK c72 m80 y0 k0
+Pantone Violet C
+HEX #7413dc
+Thread YJB506
+
+Scout Teal
+RGB r0 g167 b148
+CMYK c74 m0 y45 k0
+Pantone 3275 C
+HEX #00a794
+Thread YHG725
+
+White
+RGB r255 g255 b255
+CMYK c0 m0 y0 k0
+Pantone n/a
+HEX #ffffff
+Thread White
+
+Black Network
+RGB r0 g0 b0
+CMYK c0 m0 y0 k100
+Pantone Process Black C
+HEX #000000
+Thread Black
+
+Scouts Red
+RGB r226 g46 b18
+CMYK c0 m90 y100 k0
+Pantone Red 032 C
+HEX #e22e12
+Thread YHG125
+
+Scouts Pink
+RGB r255 g180 b229
+CMYK c2 m30 y0 k0
+Pantone 183 C
+HEX #ffb4e5
+Thread YHG113
+
+Scouts Green Cubs
+RGB r35 g169 b80
+CMYK c75 m0 y91 k0
+Pantone 347 C
+HEX #23a950
+Thread YHG741
+
+Scouts Navy Explorers
+RGB r0 g58 b130
+CMYK c100 m88 y12 k0
+Pantone 294 C
+HEX #003982
+Thread YHG328
+
+Scouts Blue Beavers
+RGB r0 g110 b224
+CMYK c95 m35 y0 k0
+Pantone 285 C
+HEX #006ddf
+Thread YHG334
+
+Scouts Yellow
+RGB r255 g230 b39
+CMYK c0 m6 y90 k0
+Pantone 108 C
+HEX #ffe627
+Thread YHG207
+
+Scout Section Green Scouts
+RGB r0 g72 b81
+CMYK c97 m21 y33 k73
+Pantone 316 C
+HEX #004851
+Thread YJB613
+
+
+
+
+!1st Kettering Troop 
+
+/* CSS HEX */
+--persian-plum: #6c0f1bff;
+--cultured: #f5f5f5ff;
+--carolina-blue: #289cdfff;
+--honey-yellow: #ffb41fff;
+--xanadu: #73937eff;
+
+/* CSS HSL */
+--persian-plum: hsla(352, 76%, 24%, 1);
+--cultured: hsla(0, 0%, 96%, 1);
+--carolina-blue: hsla(202, 74%, 52%, 1);
+--honey-yellow: hsla(40, 100%, 56%, 1);
+--xanadu: hsla(141, 13%, 51%, 1);
+
+/* SCSS HEX */
+$persian-plum: #6c0f1bff;
+$cultured: #f5f5f5ff;
+$carolina-blue: #289cdfff;
+$honey-yellow: #ffb41fff;
+$xanadu: #73937eff;
+
+/* SCSS HSL */
+$persian-plum: hsla(352, 76%, 24%, 1);
+$cultured: hsla(0, 0%, 96%, 1);
+$carolina-blue: hsla(202, 74%, 52%, 1);
+$honey-yellow: hsla(40, 100%, 56%, 1);
+$xanadu: hsla(141, 13%, 51%, 1);
+
+/* SCSS RGB */
+$persian-plum: rgba(108, 15, 27, 1);
+$cultured: rgba(245, 245, 245, 1);
+$carolina-blue: rgba(40, 156, 223, 1);
+$honey-yellow: rgba(255, 180, 31, 1);
+$xanadu: rgba(115, 147, 126, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #6c0f1bff, #f5f5f5ff, #289cdfff, #ffb41fff, #73937eff);
+$gradient-right: linear-gradient(90deg, #6c0f1bff, #f5f5f5ff, #289cdfff, #ffb41fff, #73937eff);
+$gradient-bottom: linear-gradient(180deg, #6c0f1bff, #f5f5f5ff, #289cdfff, #ffb41fff, #73937eff);
+$gradient-left: linear-gradient(270deg, #6c0f1bff, #f5f5f5ff, #289cdfff, #ffb41fff, #73937eff);
+$gradient-top-right: linear-gradient(45deg, #6c0f1bff, #f5f5f5ff, #289cdfff, #ffb41fff, #73937eff);
+$gradient-bottom-right: linear-gradient(135deg, #6c0f1bff, #f5f5f5ff, #289cdfff, #ffb41fff, #73937eff);
+$gradient-top-left: linear-gradient(225deg, #6c0f1bff, #f5f5f5ff, #289cdfff, #ffb41fff, #73937eff);
+$gradient-bottom-left: linear-gradient(315deg, #6c0f1bff, #f5f5f5ff, #289cdfff, #ffb41fff, #73937eff);
+$gradient-radial: radial-gradient(#6c0f1bff, #f5f5f5ff, #289cdfff, #ffb41fff, #73937eff);
